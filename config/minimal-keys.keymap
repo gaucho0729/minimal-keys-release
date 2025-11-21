@@ -68,7 +68,7 @@
         layer_1 {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
-&trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &kp MINUS     &kp EQUAL     &kp SQT               &kp ENTER
+&kp TAB       &trans        &trans        &trans        &trans        &trans    &trans  &trans        &kp MINUS     &kp EQUAL     &kp SQT               &kp ENTER
 &trans        &trans        &trans        &trans        &kp LBKT      &trans    &trans  &kp RBKT      &trans        &trans        &kp NON_US_BACKSLASH  &trans
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                                                          &trans
             >;
@@ -79,7 +79,7 @@
         layer_2 {
             bindings = <
 &kp ESCAPE  &trans  &trans    &trans    &kp LC(LEFT_ARROW)                    &kp RC(RIGHT_ARROW)  &trans          &trans          &trans           &kp BACKSPACE
-&kp TAB     &trans  &mkp MB1  &mkp MB2  &trans              &trans    &trans  &kp PAGE_UP          &kp RS(HOME)    &kp UP_ARROW    &kp END          &kp ENTER
+&kp TAB     &trans  &mkp MB1  &mkp MB2  &trans              &trans    &trans  &kp PAGE_UP          &kp HOME        &kp UP_ARROW    &kp END          &kp ENTER
 &trans      &trans  &trans    &trans    &trans              &trans    &trans  &kp PAGE_DOWN        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans      &trans  &trans    &trans    &trans              &trans    &trans  &trans                                                                &trans
             >;
